@@ -8,26 +8,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div id="logo" class="flex bg-white h-18">
+    <div id="logo" class="sm:flex bg-white sticky z-1 t-0 h-18">
         <h1 class="text-5xl ml-10 font-semibold">SHEIN</h1>
         <input type="search" placeholder="Search " 
-        class="w-90 h-10 mt-3 ml-40 px-5 py-3 bg-white text-black border border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-lg placeholder-gray-500"/>
+        class="w-90 h-10 mt-3 sm:ml-40 ml-3 px-5 py-3 bg-white text-black border border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-lg placeholder-gray-500"/>
     
+    <!-- icon2 -->
+      <div class="relative group"> 
+<svg class="w-10 h-8 sm:hidden -mt-23 ml-48  text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+</svg>
+  <h1 id="menu"  class="w-5 h-8 -mt-8 text-xl ml-8 text-black dark:text-white"></h1>
+              </div>
         <!-- icon1 -->
         <div class="relative group"> 
-       <svg class="w-10 h-8 mt-3 text-gray-800 dark:text-white ml-70 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+      <a href="Sign in.html"> <svg class="w-10 h-8 sm:mt-3 -mt-8 text-gray-800 dark:text-white sm:ml-70 ml-55 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-width="2" d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
-</svg>
-   <ul class="list-none m-0 ml-40  p-0 absolute top-full left-1/2 -translate-x-1/2 bg-gray-700 min-w-[120px] shadow-lg z-10 hidden group-hover:block rounded overflow-hidden">
-                      <li><a href="#" class="text-white px-4 py-3 no-underline block transition-colors duration-300 hover:text-orange-500">Singin/Register</a></li>
+</svg></a>
+   <div class="hidden sm:block"><ul class="list-none m-0 sm:ml-40 ml-10 mt-3 sm:mt-0 p-0 absolute top-full left-1/2 -translate-x-1/2 bg-gray-700 min-w-[120px] shadow-lg z-10 hidden group-hover:block rounded overflow-hidden">
+                      <li><a href="Sign in.html" class="text-white px-4 py-3 no-underline block transition-colors duration-300 hover:text-orange-500">Singin/Register</a></li>
                     <li><a href="#" class="text-white px-4 py-3 no-underline block transition-colors duration-300 hover:text-orange-500">My Order</a></li>
                     <li><a href="#" class="text-white px-4 py-3 no-underline block transition-colors duration-300 hover:text-orange-500">My Coupons</a></li>
-                </ul>
+                </ul></div>
     </div> 
 
     <!-- icon2 -->
       <div class="relative group"> 
-<svg class="w-10 h-8 mt-3 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg class="w-10 h-8 sm:mt-3 hidden sm:block  -mt-8 ml-48 sm:ml-0 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
 </svg>
   <h1 id="menu"  class="w-5 h-8 -mt-8 text-xl ml-8 text-black dark:text-white"></h1>
@@ -36,14 +43,14 @@
 
               <!-- icon3 -->
     <div class="relative group"> 
-<svg class="w-10 h-8 mt-3 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg class="w-10 h-8 sm:mt-3 -mt-8 ml-62 sm:ml-0 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
 </svg> 
               </div>
     
               <!-- icon4 -->
               <div class="relative group"> 
-<svg class="w-10 h-8 mt-3 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg class="w-10 h-8 sm:mt-3 -mt-8 ml-72 sm:ml-0 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.079 6.839a3 3 0 0 0-4.255.1M13 20h1.083A3.916 3.916 0 0 0 18 16.083V9A6 6 0 1 0 6 9v7m7 4v-1a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1Zm-7-4v-6H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h1Zm12-6h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1v-6Z"/>
 </svg>
  
@@ -51,18 +58,21 @@
                     
              <!-- icon5  -->
              <div class="relative group"> 
-<svg class="w-10 h-8 mt-3 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-  <path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="M10 19H5a1 1 0 0 1-1-1v-1a3 3 0 0 1 3-3h2m10 1a3 3 0 0 1-3 3m3-3a3 3 0 0 0-3-3m3 3h1m-4 3a3 3 0 0 1-3-3m3 3v1m-3-4a3 3 0 0 1 3-3m-3 3h-1m4-3v-1m-2.121 1.879-.707-.707m5.656 5.656-.707-.707m-4.242 0-.707.707m5.656-5.656-.707.707M12 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
-</svg>   <ul class="list-none m-0 ml-0  p-0 absolute top-full left-1/2 -translate-x-1/2 bg-gray-700 min-w-[120px] shadow-lg z-10 hidden group-hover:block rounded overflow-hidden">
+<svg class="w-10 h-8 sm:mt-3 -mt-8 ml-82 sm:ml-0 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13v-2a1 1 0 0 0-1-1h-.757l-.707-1.707.535-.536a1 1 0 0 0 0-1.414l-1.414-1.414a1 1 0 0 0-1.414 0l-.536.535L14 4.757V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v.757l-1.707.707-.536-.535a1 1 0 0 0-1.414 0L4.929 6.343a1 1 0 0 0 0 1.414l.536.536L4.757 10H4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h.757l.707 1.707-.535.536a1 1 0 0 0 0 1.414l1.414 1.414a1 1 0 0 0 1.414 0l.536-.535 1.707.707V20a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-.757l1.707-.708.536.536a1 1 0 0 0 1.414 0l1.414-1.414a1 1 0 0 0 0-1.414l-.535-.536.707-1.707H20a1 1 0 0 0 1-1Z"/>
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+</svg>
+   <div class="hidden sm:block"> <ul class="list-none m-0 ml-0  p-0 absolute top-full left-1/2 -translate-x-1/2 bg-gray-700 min-w-[120px] shadow-lg z-10 hidden group-hover:block rounded overflow-hidden">
                       <li><a href="#" class="text-white px-4 py-3 no-underline block transition-colors duration-300 hover:text-orange-500">Location</a></li>
                     <li><a href="#" class="text-white px-4 py-3 no-underline block transition-colors duration-300 hover:text-orange-500">Address</a></li>
-                </ul>
+                </ul></div>
               </div>
+</div>
 
        </div>
-        <div class="bg-slate-900 w-full h-136 text-white flex ">
-        <div class=""> <h1 class="text-blue-400 font-bold ml-2 pt-20 pl-20 text-9xl">Welcom to<br>SHEIN</h1>
-         <P class="mt-10 ml-20">Lorem ipsum dolor sit amet consectetur adipisicing elit.<BR> Quibusdam, illum, beatae quo animi aliquid <BR>ducimus aspernatur unde natus dolore consectetur <BR>tempora perferendis quia doloremque eos <BR>adipisci assumenda quae nulla cupiditate.</P>
+        <div class="bg-slate-900 mt-10 sm:mt-0 w-full sm:h-136 h-195 text-white sm:flex ">
+        <div class=""> <h1 class="text-blue-400 font-bold ml-2 pt-20 pl-10 sm:pl-20 text-6xl sm:text-9xl">Welcom to<br>SHEIN</h1>
+         <P class="mt-10 ml-2 text-[0.8em] sm:text-[0] sm:ml-20 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.<BR> Quibusdam, illum, beatae quo animi aliquid <BR>ducimus aspernatur unde natus dolore consectetur <BR>tempora perferendis quia doloremque eos <BR>adipisci assumenda quae nulla cupiditate.</P>
      </div>  
        <div class="animate-bounce mt-20"><img src="Screenshot_2025-07-16_095335-removebg-preview.png" alt=""></div> 
         </div>
@@ -70,24 +80,24 @@
            
         </div>
 
-        <div class="flex gap-16">
+        <div class="sm:flex gap-16">
           <!-- box1 -->
-          <div class=" ml-15 bg-slate-50 shadow-2xl w-58 h-98 mt-20 rounded-2xl">
-            <img class="w-58 rounded-t-2xl" src="1747964072b473c193c1d47b34f0e88aa9fb4d5e1d_thumbnail_750x.jpg" alt="">
+          <div class=" sm:ml-15 ml-2 bg-slate-50 shadow-2xl sm:w-58 w-40 sm:h-98 h-80 mt-20 rounded-2xl">
+            <img class="sm:w-58 w-40 rounded-t-2xl" src="1747964072b473c193c1d47b34f0e88aa9fb4d5e1d_thumbnail_750x.jpg" alt="">
             <p>Hot Item Fashionable LED Qua...</p>
-            <div class="flex gap-30 mt-3">
+            <div class="flex sm:gap-30 gap-12 mt-3">
               <h1 class="text-2xl font-bold ml-2">$5.00</h1>
-              <svg id="btn1"  class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <svg id="btn1"  class="w-6 h-6  text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"/>
 </svg>
 
             </div>
           </div>
 <!-- box2 -->
-             <div class=" bg-slate-50 shadow-2xl w-58 h-98 mt-20  rounded-2xl">
+             <div class=" sm:ml-0 ml-50 bg-slate-50 shadow-2xl sm:w-58 w-40 sm:h-98 h-80 sm:mt-20 -mt-80 rounded-2xl">
             <img class="w-58 rounded-t-2xl" src="17320687201aea00838dcc1796553ea7cc56624758_thumbnail_750x.jpg" alt="">
             <p>2pcs/Set Fashionable Diamon...</p>
-            <div class="flex gap-30 mt-3">
+            <div class="flex sm:gap-30 gap-12 mt-3">
               <h1 class="text-2xl font-bold ml-2">$18.00</h1>
               <svg id="btn2"  class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"/>
@@ -96,10 +106,10 @@
             </div>
           </div>
           <!-- box3 -->
-              <div class="bg-slate-50 shadow-2xl w-58 h-98 mt-20 rounded-2xl">
+              <div class="sm:-ml-2 ml-2 bg-slate-50 shadow-2xl sm:w-58 w-40 sm:h-98 h-80 mt-20 rounded-2xl">
             <img class="w-58  rounded-t-2xl" src="17457336617d8d0f7ea6d7f34ca52088df8c324e1d_thumbnail_750x.jpg" alt="">
             <p>1pc Casual Square Roman Nu...</p>
-            <div class="flex gap-30 mt-3">
+            <div class="flex sm:gap-30 gap-12 mt-3">
               <h1 class="text-2xl font-bold ml-2">$25.00</h1>
               <svg id="btn3"  class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"/>
@@ -108,10 +118,10 @@
             </div>
           </div>
           <!-- box4 -->
-              <div class="bg-slate-50 shadow-2xl w-58 h-98 mt-20 rounded-2xl">
+              <div class="sm:ml-0 ml-50 bg-slate-50 shadow-2xl sm:w-58 w-40 sm:h-98 h-80 sm:mt-20 -mt-80 rounded-2xl">
             <img class="w-58 rounded-t-2xl" src="1733729562839a180e9d7a8cd0eb22decfe38f6520_thumbnail_750x.jpg" alt="">
             <p>1pc Fashion Business Gentlman...</p>
-            <div class="flex gap-30 mt-3">
+            <div class="flex sm:gap-30 gap-16 mt-3">
               <h1 class="text-2xl  font-bold ml-2">$8.00</h1>
               <svg id="btn4"  class="w-6 h-6 text-gray-800 j dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"/>
@@ -126,10 +136,10 @@
 <!-- section -->
                 <div class="flex gap-16 ">
           <!-- box1 -->
-          <div class=" ml-15 bg-slate-50 shadow-2xl w-58 h-98 mt-20 rounded-2xl">
+          <div class=" sm:ml-15 ml-2 bg-slate-50 shadow-2xl sm:w-58 w-40 sm:h-98 h-80 mt-20 rounded-2xl">
             <img class="w-58 rounded-t-2xl" src="rr.jpg" alt="">
             <p>2pcs/Set Versatile Fashion Te...</p>
-            <div class="flex gap-30 mt-3">
+            <div class="flex sm:gap-30 gap-16 mt-3">
               <h1 class="text-2xl font-bold ml-2">$2.99</h1>
               <svg id="btn5" class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"/>
@@ -138,10 +148,10 @@
             </div>
           </div>
 <!-- box2 -->
-             <div class=" bg-slate-50 shadow-2xl w-58 h-98 mt-20  rounded-2xl">
+             <div class="sm:ml-0 -ml-5 bg-slate-50 shadow-2xl sm:w-58 w-40 sm:h-98 h-80 sm:mt-20 mt-20 rounded-2xl">
             <img class="w-58 rounded-t-2xl" src="aa.jpg" alt="">
             <p>4pcs/Set Student Sports Ana...</p>
-            <div class="flex gap-30 mt-3">
+            <div class="flex sm:gap-30 gap-12 mt-3">
               <h1 class="text-2xl font-bold ml-2">$12.80</h1>
               <svg id="btn6"  class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"/>
@@ -150,10 +160,10 @@
             </div>
           </div>
           <!-- box3 -->
-              <div class="bg-slate-50 shadow-2xl w-58 h-98 mt-20 rounded-2xl">
+              <div class="sm:-ml-3 -ml-55 bg-slate-50 shadow-2xl sm:w-58 w-40 sm:h-98 h-80 mt-120 sm:mt-18  rounded-2xl">
             <img class="w-58  rounded-t-2xl" src="yy.jpg" alt="">
             <p>4-Piece Set, 1 Boy's Simple Thr...</p>
-            <div class="flex gap-30 mt-3">
+            <div class="flex sm:gap-30 gap-12 mt-3">
               <h1 class="text-2xl font-bold ml-2">$6.70</h1>
               <svg id="btn7"  class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"/>
@@ -162,10 +172,10 @@
             </div>
           </div>
           <!-- box4 -->
-              <div class="bg-slate-50 shadow-2xl w-58 h-98 mt-20  rounded-2xl">
+              <div class="sm:ml-3 -ml-105 bg-slate-50 shadow-2xl sm:w-58 w-40 sm:h-98 h-80  mt-120 sm:mt-18 rounded-2xl">
             <img class="w-58 rounded-t-2xl" src="tt.jpg" alt="">
             <p>2pcs/Set Fashion Silver-Tone Q...</p>
-            <div class="flex gap-30 mt-3">
+            <div class="flex sm:gap-30 gap-16 mt-3">
               <h1 class="text-2xl  font-bold ml-2">$4.10</h1>
               <svg id="btn8"  class="w-6 h-6 text-gray-800 j dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"/>
@@ -175,7 +185,7 @@
           </div>
         </div>
         <div class="">
-          <button class="bg-slate-900 text-white w-50 rounded-3xl h-10 mt-20 ml-130">Viwe All</button>
+          <button class="bg-slate-900 text-white w-50 rounded-3xl h-10 mt-20 ml-20 sm:ml-130">Viwe All</button>
         </div>
         <script src="main.js"></script>
 </body>

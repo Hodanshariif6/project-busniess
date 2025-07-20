@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shein</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="logo" class="flex bg-slate-900 text-white sticky  t-0 h-18">
+        <h1 class="text-5xl ml-10 font-semibold">SHEIN</h1>
+        <input type="search" placeholder="Search " 
+        class="w-90 h-10 mt-3 ml-40 px-5 py-3 bg-white text-black border border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-lg placeholder-gray-500"/>
+    
+        <!-- icon1 -->
+        <div class="relative group"> 
+       <svg class="w-10 h-8 mt-3 text-white dark:text-white ml-70 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-width="2" d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+</svg>
+   <ul class="list-none m-0 ml-40  p-0 absolute top-full left-1/2 -translate-x-1/2 bg-gray-700 min-w-[120px] shadow-lg z-10 hidden group-hover:block rounded overflow-hidden">
+                      <li><a href="#" class="text-white px-4 py-3 no-underline block transition-colors duration-300 hover:text-orange-500">Singin/Register</a></li>
+                    <li><a href="#" class="text-white px-4 py-3 no-underline block transition-colors duration-300 hover:text-orange-500">My Order</a></li>
+                    <li><a href="#" class="text-white px-4 py-3 no-underline block transition-colors duration-300 hover:text-orange-500">My Coupons</a></li>
+                </ul>
+    </div> 
+
+    <!-- icon2 -->
+      <div class="relative group"> 
+<svg class="w-10 h-8 mt-3 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+</svg>
+  <h1 id="menu"  class="w-5 h-8 -mt-8 text-xl ml-8 text-black dark:text-white"></h1>
+              </div>
+
+
+              <!-- icon3 -->
+    <div class="relative group"> 
+<svg class="w-10 h-8 mt-3 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+</svg> 
+              </div>
+    
+              <!-- icon4 -->
+              <div class="relative group"> 
+<svg class="w-10 h-8 mt-3 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.079 6.839a3 3 0 0 0-4.255.1M13 20h1.083A3.916 3.916 0 0 0 18 16.083V9A6 6 0 1 0 6 9v7m7 4v-1a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1Zm-7-4v-6H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h1Zm12-6h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1v-6Z"/>
+</svg>
+ 
+              </div>
+                    
+             <!-- icon5  -->
+             <div class="relative group"> 
+<svg class="w-10 h-8 mt-3 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13v-2a1 1 0 0 0-1-1h-.757l-.707-1.707.535-.536a1 1 0 0 0 0-1.414l-1.414-1.414a1 1 0 0 0-1.414 0l-.536.535L14 4.757V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v.757l-1.707.707-.536-.535a1 1 0 0 0-1.414 0L4.929 6.343a1 1 0 0 0 0 1.414l.536.536L4.757 10H4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h.757l.707 1.707-.535.536a1 1 0 0 0 0 1.414l1.414 1.414a1 1 0 0 0 1.414 0l.536-.535 1.707.707V20a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-.757l1.707-.708.536.536a1 1 0 0 0 1.414 0l1.414-1.414a1 1 0 0 0 0-1.414l-.535-.536.707-1.707H20a1 1 0 0 0 1-1Z"/>
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+</svg>
+   <ul class="list-none m-0 ml-0  p-0 absolute top-full left-1/2 -translate-x-1/2 bg-gray-700 min-w-[120px] shadow-lg z-10 hidden group-hover:block rounded overflow-hidden">
+                      <li><a href="#" class="text-white px-4 py-3 no-underline block transition-colors duration-300 hover:text-orange-500">Location</a></li>
+                    <li><a href="#" class="text-white px-4 py-3 no-underline block transition-colors duration-300 hover:text-orange-500">Address</a></li>
+                </ul>
+              </div>
+
+       </div>
+      <div class="">
+        <h1 class=" text-center font-bold mt-20 text-3xl">Sign In/Register</h1>
+        <div class="flex ml-139 text-green-700">
+         <svg class="w-6 h-6 text-green-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14v3m-3-6V7a3 3 0 1 1 6 0v4m-8 0h10a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1Z"/>
+        </svg>
+        <p class="">Your data is protected.</p>
+        </div>
+        
+      </div>
+      <div class="flex gap-10 bg-[rgba(216,134,68,0.1)] w-100 h-21 ml-110 mt-6 pl-7 pt-3">
+<div class="text-xs">
+    <!-- box1 -->
+    <svg class="w-6 ml-6 h-6 text-orange-600 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.153 19 21 12l-4.847-7H3l4.848 7L3 19h13.153Z"/>
+</svg>
+<h1 class="text-center font-bold">Get 30% Off</h1>
+<p class="text-center">First Order</p>
+</div>
+       <div class="text-xs">
+    <!-- box1 -->
+<svg class="w-6 h-6 ml-10 text-orange-600 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h6l2 4m-8-4v8m0-8V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v9h2m8 0H9m4 0h2m4 0h2v-4m0 0h-5m3.5 5.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm-10 0a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"/>
+</svg>
+
+<h1 class="text-center font-bold">Free Shipping</h1>
+<p class="text-center">*Conditions Apply</p>
+
+</div>
+<div class="text-xs">
+    <!-- box1 -->
+<svg class="w-6 h-6 ml-10 text-orange-600 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11v5m0 0 2-2m-2 2-2-2M3 6v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1Zm2 2v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8H5Z"/>
+</svg>
+
+<h1 class="text-center font-bold">Free Returns</h1>
+<p class="text-center">*Conditions Apply</p>
+
+</div>
+     </div>
+
+     <div class="ml-110">
+        <p class="text-gray-400 mt-6 ">Mobile number or email address:</p>
+        <input class="border border-black h-10 mt-1 w-100" type="email" placeholder="Email">
+     
+     </div>  
+      <button class="bg-black text-white w-100 ml-110 mt-6 h-10">CONTINUE</button> 
+      <div class=" w-20 ml-140 mt-8 text-gray-400 "><hr>
+    <h1 class="ml-21 -mt-5 text-xl text-gray-400 ">or</h1>
+<hr class="w-20 ml-27 text-gray-400 -mt-2">
+    </div>
+    <div class="flex bg-white text-black border gap-4 pl-19 pt-2 border-gray-200 w-100 ml-110 mt-6 h-10">
+        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M12.037 21.998a10.313 10.313 0 0 1-7.168-3.049 9.888 9.888 0 0 1-2.868-7.118 9.947 9.947 0 0 1 3.064-6.949A10.37 10.37 0 0 1 12.212 2h.176a9.935 9.935 0 0 1 6.614 2.564L16.457 6.88a6.187 6.187 0 0 0-4.131-1.566 6.9 6.9 0 0 0-4.794 1.913 6.618 6.618 0 0 0-2.045 4.657 6.608 6.608 0 0 0 1.882 4.723 6.891 6.891 0 0 0 4.725 2.07h.143c1.41.072 2.8-.354 3.917-1.2a5.77 5.77 0 0 0 2.172-3.41l.043-.117H12.22v-3.41h9.678c.075.617.109 1.238.1 1.859-.099 5.741-4.017 9.6-9.746 9.6l-.215-.002Z" clip-rule="evenodd"/>
+</svg>
+ <h1>Continue With Google</h1>
+    </div>
+      <div class="flex bg-white text-black border gap-4 pl-19 pt-2 border-gray-200 w-100 ml-110 mt-3 h-10">
+   <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+</svg>
+
+ <h1>Continue With Google</h1>
+    </div>
+<div class="flex gap-10 rounded-xl bg-slate-200 w-25 text-xl ml-150 mt-10 h-8 pt-2 pl-3">
+    <i class="fa-solid fa-location-dot "></i>
+    <svg class="w-6 h-5  text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+</svg>
+
+</div>
+<p class="ml-130 mt-7 text-xs"> By continuing, you agree to our <span class="text-blue-400">Privacy & Cookie <br>Policy and Terms & Conditions.</span></p>
+      <!-- <div class="h-screen bg-black"></div> -->
+<script src="main.js"></script>
+</body>
+</html>
